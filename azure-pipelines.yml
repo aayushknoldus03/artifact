@@ -16,7 +16,7 @@ steps:
     versionSpec: '8'
     jdkArchitectureOption: 'x64'
     jdkSourceOption: 'LocalDirectory'
-    jdkFile: '/home/Downloads/jdk-20_linux-aarch64_bin.tar.gz'
+    jdkFile: '/home/knoldus/Downloads/jdk-20_linux-aarch64_bin.tar.gz'
     jdkDestinationDirectory: '.'
     cleanDestinationDirectory: true
 
