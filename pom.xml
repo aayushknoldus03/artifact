@@ -13,5 +13,29 @@
         <maven.compiler.target>11</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
+<repository>
+  <id>aayushbisht0173</id>
+  <url>https://pkgs.dev.azure.com/aayushbisht0173/_packaging/aayushbisht0173/maven/v1</url>
+  <releases>
+    <enabled>true</enabled>
+  </releases>
+  <snapshots>
+    <enabled>true</enabled>
+  </snapshots>
+</repository>
+<settings xmlns="http://maven.apache.org/SETTINGS/1.0.0"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0
+                              https://maven.apache.org/xsd/settings-1.0.0.xsd">
+  <servers>
+
+    <server>
+      <id>aayushbisht0173</id>
+      <username>aayushbisht0173</username>
+      <password>skmia2qni6vkn3watzhsqpp5kfnu2fjpbz4t7je67a6dn2ob5vva</password>
+    </server>
+
+  </servers>
+</settings>
 
 </project>
