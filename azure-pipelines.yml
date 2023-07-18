@@ -1,5 +1,6 @@
 # Starter pipeline
 
+
 # Start with a minimal pipeline that you can customize to build and deploy your code.
 # Add steps that build, run tests, deploy, and more:
 # https://aka.ms/yaml
@@ -19,6 +20,12 @@ steps:
     jdkFile: '/home/knoldus/Downloads/jdk-20_linux-aarch64_bin.tar.gz'
     jdkDestinationDirectory: '.'
     cleanDestinationDirectory: true
+
+- task: Bash@3
+  inputs:
+    targetType: 'inline'
+    script: 'sudo apt install maven'
+    
 
 - task: Maven@4
   inputs:
