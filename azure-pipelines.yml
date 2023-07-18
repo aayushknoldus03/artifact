@@ -24,7 +24,7 @@ steps:
 - task: Bash@3
   inputs:
     targetType: 'inline'
-    script: 'sudo apt install maven'
+    script: 'apt install maven'
     
 
 - task: Maven@4
